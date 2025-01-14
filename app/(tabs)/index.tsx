@@ -52,7 +52,7 @@ const HomeScreen = () => {
   });
 
   const renderTodoItem = ({ item: todo }: { item: Todo }) => (
-    <View className="flex-row items-center justify-between bg-gray-50 p-3 rounded-lg shadow mt-2 border border-gray-200">
+    <View className="flex-row items-center justify-between bg-gray-50 p-3 mx-6 rounded-lg shadow mt-2 border border-gray-200">
       <Text className={`flex-1 ${todo.completed ? "line-through text-gray-400" : "text-gray-800"} font-medium`}>
         {todo.title}
       </Text>
